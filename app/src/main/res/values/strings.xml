@@ -4,7 +4,7 @@
     <!--  Text Login Main Activity  -->
     <string name="str_usernamehint_login">Username</string>
     <string name="str_passwordhint_login">Password</string>
-    <string name="str_btnlogin_login">login</string>
+    <string name="str_btnlogin">login</string>
     <string name="str_or_login">OR</string>
     <string name="str_facebook_login">Connect with facebook</string>
     <string name="str_questionreg_login">doesn\'t have account ?</string>
@@ -14,22 +14,22 @@
     <string name="str_usernamehint_register">Username</string>
     <string name="str_emailhint_register">Email</string>
     <string name="str_phonehint_register">Phone Number</string>
-    <string name="str_male_register">Male</string>
-    <string name="str_female_register">Female</string>
+    <string name="str_malereg">Male</string>
+    <string name="str_femalereg">Female</string>
     <string name="str_goldarah_register">Blood Type</string>
     <string name="str_goldarahA_register">A</string>
     <string name="str_goldarahB_register">B</string>
     <string name="str_goldarahAB_register">AB</string>
     <string name="str_goldarahO_register">O</string>
-    <string name="str_rhesus_register">Rhesus</string>
+    <string name="str_rhesusreg">Rhesus</string>
     <string name="str_rhesusPositive">Positive</string>
     <string name="str_reshusNegative">Negative</string>
-    <string name="str_passwordhint_register">Password</string>
+    <string name="str_passhint_register">Password</string>
     <string name="str_repasswordhint_register">Retype Password</string>
-    <string name="str_personal_register">Personal</string>
-    <string name="str_organization_register">Organization</string>
-    <string name="str_job_register">Job</string>
-    <string name="str_joblist1_register">Pengangguran</string>
+    <string name="str_personalreg">Personal</string>
+    <string name="str_organizationreg">Organization</string>
+    <string name="str_jobreg">Job</string>
+    <string name="str_joblist1_register">Tidak Bekerja</string>
     <string name="str_address_register">Home Address</string>
     <string name="str_location_register">Default Location</string>
     <string name="str_agree_register">Agree with Terms and Conditions</string>
@@ -79,8 +79,8 @@
     <string-array name="pilihanjob">
         <item>Job</item>
         <item>PNS</item>
-        <item>SWASTA</item>
-        <item>TIDAK BEKERJA</item>
+        <item>Swasta</item>
+        <item>Tidak Bekerja</item>
     </string-array>
 
 

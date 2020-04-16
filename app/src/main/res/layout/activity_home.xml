@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_Home"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:background="@drawable/ic_header_profile"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="#f8f8f8"></androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="562dp"
+        android:layout_below="@+id/toolbar_Home"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:background="@drawable/ic_profile_default_large"></ImageView>
+    </LinearLayout>
+
+</RelativeLayout>
+

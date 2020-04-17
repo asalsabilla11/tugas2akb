@@ -12,6 +12,10 @@ class registeractivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registeractivity)
 
+        toolbar_register.setNavigationIcon(R.drawable.ic_header_back)
+        toolbar_register.setTitle("Register")
+        setSupportActionBar(toolbar_register)
+
         btnregister2.setOnClickListener(){
             val username = usernameregis.text.toString()
             val email = emailregis.text.toString()
@@ -39,8 +43,7 @@ class registeractivity : AppCompatActivity() {
                     val intent = Intent(this,Almostthere::class.java)
                     intent.putExtra("username",username)
                     intent.putExtra("goldar",goldar)
-                    val intent2 = Intent(this,Almostthere::class.java)
-                    startActivity(intent2)
+                    startActivity(intent)
                 }
 
 
